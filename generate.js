@@ -44,6 +44,7 @@ let html = `<!DOCTYPE html>
       <option value="upstream">Default style</option>
       <option value="borders-only">Borders Only</option>
     </select>
+    <label>Fixup 1926992 <input type="checkbox" id="fixup-width" checked /></label>
   </header>
   ${previewHTML}
   </body>

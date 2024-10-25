@@ -20,7 +20,7 @@ function nscolorToRGB(nscolor) {
   return `rgb(${r}, ${g}, ${b})`;
 }
 
-function getSVG(wireframe) {
+function getSVG(wireframe, fixupEnabled) {
   let svg = document.createElementNS(SVG_NS, "svg");
 
 
@@ -35,7 +35,7 @@ function getSVG(wireframe) {
     0
   );
 
-  if (FIX_DIMENSIONS) {
+  if (fixupEnabled && FIX_DIMENSIONS) {
     width = 1028;
     height = 683;
   }
@@ -46,8 +46,8 @@ function getSVG(wireframe) {
 }
 
 export const BordersOnly =  {
-  getWireframeElement(wireframe) {
-    let svg = getSVG(wireframe);
+  getWireframeElement(wireframe, fixupEnabled) {
+    let svg = getSVG(wireframe, fixupEnabled);
     const DEFAULT_FILL = "color-mix(in srgb, gray 20%, transparent)";
     svg.style.backgroundColor = nscolorToRGB(wireframe.canvasBackground);
 
@@ -112,8 +112,8 @@ export const Upstream =  {
    * @return {SVGElement}
    *   The rendered wireframe
    */
-  getWireframeElement(wireframe, document) {
-    let svg = getSVG(wireframe);
+  getWireframeElement(wireframe, fixupEnabled) {
+    let svg = getSVG(wireframe, fixupEnabled);
 
     const DEFAULT_FILL = "color-mix(in srgb, gray 20%, transparent)";
 
