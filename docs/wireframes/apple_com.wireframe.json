@@ -1,0 +1,342 @@
+{
+  "canvasBackground": 4294967295,
+  "rects": [
+    {
+      "color": 0,
+      "height": 683,
+      "type": "image",
+      "width": 1013,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "color": 0,
+      "height": 683,
+      "type": "image",
+      "width": 1013,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "color": 4294967295,
+      "height": 1746,
+      "type": "background",
+      "width": 1013,
+      "x": 0,
+      "y": 44
+    },
+    {
+      "color": 4294967295,
+      "height": 570,
+      "type": "background",
+      "width": 1013,
+      "x": 0,
+      "y": 626
+    },
+    {
+      "color": 4294440437,
+      "height": 570,
+      "type": "background",
+      "width": 1013,
+      "x": 0,
+      "y": 626
+    },
+    {
+      "color": 0,
+      "height": 570,
+      "type": "image",
+      "width": 1013,
+      "x": 0,
+      "y": 626
+    },
+    {
+      "color": 0,
+      "height": 570,
+      "type": "image",
+      "width": 1013,
+      "x": 0,
+      "y": 626
+    },
+    {
+      "color": 0,
+      "height": 570,
+      "type": "image",
+      "width": 1068,
+      "x": -27.5,
+      "y": 626
+    },
+    {
+      "color": 4294940457,
+      "height": 21,
+      "type": "text",
+      "width": 4.599999904632568,
+      "x": 0,
+      "y": 628
+    },
+    {
+      "color": 4294440437,
+      "height": 58,
+      "type": "text",
+      "width": 208.4499969482422,
+      "x": 402.26666259765625,
+      "y": 676
+    },
+    {
+      "color": 4294967295,
+      "height": 570,
+      "type": "background",
+      "width": 1013,
+      "x": 0,
+      "y": 44
+    },
+    {
+      "color": 4294440437,
+      "height": 570,
+      "type": "background",
+      "width": 1013,
+      "x": 0,
+      "y": 44
+    },
+    {
+      "color": 4278190080,
+      "height": 570,
+      "type": "background",
+      "width": 1013,
+      "x": 0,
+      "y": 44
+    },
+    {
+      "color": 0,
+      "height": 570,
+      "type": "image",
+      "width": 1068,
+      "x": -27.5,
+      "y": 44
+    },
+    {
+      "color": 4294940457,
+      "height": 21,
+      "type": "text",
+      "width": 4.599999904632568,
+      "x": 0,
+      "y": 46
+    },
+    {
+      "color": 4293095680,
+      "height": 44,
+      "type": "background",
+      "width": 130.98333740234375,
+      "x": 395.6000061035156,
+      "y": 494
+    },
+    {
+      "color": 4294967295,
+      "height": 21,
+      "type": "text",
+      "width": 86.98332977294922,
+      "x": 417.6000061035156,
+      "y": 505.5
+    },
+    {
+      "color": 4294440437,
+      "height": 21,
+      "type": "text",
+      "width": 4.416666507720947,
+      "x": 526.5833129882812,
+      "y": 505.5
+    },
+    {
+      "color": 4294940457,
+      "height": 21,
+      "type": "text",
+      "width": 29.399999618530273,
+      "x": 566,
+      "y": 505.5
+    },
+    {
+      "color": 4287334022,
+      "height": 17,
+      "type": "text",
+      "width": 214.51666259765625,
+      "x": 397.51666259765625,
+      "y": 559.5
+    },
+    {
+      "color": 4294440437,
+      "height": 58,
+      "type": "text",
+      "width": 288.95001220703125,
+      "x": 362.01666259765625,
+      "y": 94
+    },
+    {
+      "color": 4294440437,
+      "height": 29,
+      "type": "text",
+      "width": 248.63333129882812,
+      "x": 382.1833190917969,
+      "y": 153.5
+    },
+    {
+      "color": 4287334022,
+      "height": 17,
+      "type": "text",
+      "width": 3.450000047683716,
+      "x": 612.0333251953125,
+      "y": 559.5
+    },
+    {
+      "color": 3424065046,
+      "height": 44,
+      "type": "background",
+      "width": 1013,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "color": 0,
+      "height": 44,
+      "type": "image",
+      "width": 14,
+      "x": 22,
+      "y": 0
+    },
+    {
+      "color": 0,
+      "height": 44,
+      "type": "image",
+      "width": 30,
+      "x": 70.30000305175781,
+      "y": 0
+    },
+    {
+      "color": 0,
+      "height": 44,
+      "type": "image",
+      "width": 23,
+      "x": 134.60000610351562,
+      "y": 0
+    },
+    {
+      "color": 0,
+      "height": 44,
+      "type": "image",
+      "width": 24,
+      "x": 191.8999938964844,
+      "y": 0
+    },
+    {
+      "color": 0,
+      "height": 44,
+      "type": "image",
+      "width": 38,
+      "x": 250.1999969482422,
+      "y": 0
+    },
+    {
+      "color": 0,
+      "height": 44,
+      "type": "image",
+      "width": 35,
+      "x": 322.5,
+      "y": 0
+    },
+    {
+      "color": 0,
+      "height": 44,
+      "type": "image",
+      "width": 34,
+      "x": 391.7999877929687,
+      "y": 0
+    },
+    {
+      "color": 0,
+      "height": 44,
+      "type": "image",
+      "width": 43,
+      "x": 460.1000061035156,
+      "y": 0
+    },
+    {
+      "color": 0,
+      "height": 44,
+      "type": "image",
+      "width": 65,
+      "x": 537.4166870117188,
+      "y": 0
+    },
+    {
+      "color": 0,
+      "height": 44,
+      "type": "image",
+      "width": 77,
+      "x": 636.7333374023438,
+      "y": 0
+    },
+    {
+      "color": 0,
+      "height": 44,
+      "type": "image",
+      "width": 67,
+      "x": 748.0499877929688,
+      "y": 0
+    },
+    {
+      "color": 0,
+      "height": 44,
+      "type": "image",
+      "width": 44,
+      "x": 849.3666381835938,
+      "y": 0
+    },
+    {
+      "color": 0,
+      "height": 44,
+      "type": "image",
+      "width": 15,
+      "x": 927.683349609375,
+      "y": 0
+    },
+    {
+      "color": 0,
+      "height": 44,
+      "type": "image",
+      "width": 14,
+      "x": 977,
+      "y": 0
+    },
+    {
+      "color": 0,
+      "height": 683,
+      "type": "background",
+      "width": 15,
+      "x": 1013,
+      "y": 0
+    },
+    {
+      "color": 0,
+      "height": 683,
+      "type": "background",
+      "width": 15,
+      "x": 1013,
+      "y": 0
+    },
+    {
+      "color": 0,
+      "height": 87,
+      "type": "background",
+      "width": 15,
+      "x": 1013,
+      "y": 0
+    },
+    {
+      "color": 0,
+      "height": 87,
+      "type": "background",
+      "width": 15,
+      "x": 1013,
+      "y": 0
+    }
+  ],
+  "version": 1
+}

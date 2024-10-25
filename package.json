@@ -1,0 +1,18 @@
+{
+  "name": "wireframe-previews",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "collect": "node collect.js && npm run optimize",
+    "optimize": "./encode-images.sh",
+    "generate": "node generate.js",
+    "preview": "npm run generate && python3 -m http.server --dir docs"
+  },
+  "keywords": [],
+  "author": "",
+  "description": "",
+  "dependencies": {
+    "selenium-webdriver": "^4.25.0"
+  }
+}
