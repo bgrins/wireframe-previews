@@ -1,5 +1,9 @@
 
 const SVG_NS = "http://www.w3.org/2000/svg";
+
+// This should be fixed in https://bugzilla.mozilla.org/show_bug.cgi?id=1926992.
+const FIX_DIMENSIONS = true;
+
 /**
 * Converts a color encoded as a uint32_t (Gecko's nscolor format)
 * to an rgb string.
@@ -19,7 +23,6 @@ function nscolorToRGB(nscolor) {
 function getSVG(wireframe) {
   let svg = document.createElementNS(SVG_NS, "svg");
 
-  // 1028x683?
 
   // Currently guessing width & height from rects on the object, it would be better to
   // save these on the wireframe object itself.
@@ -31,6 +34,12 @@ function getSVG(wireframe) {
     (max, rect) => Math.max(max, rect.y + rect.height),
     0
   );
+
+  if (FIX_DIMENSIONS) {
+    width = 1028;
+    height = 683;
+  }
+
   svg.setAttributeNS(null, "viewBox", `0 0 ${width} ${height}`);
   svg.style.backgroundColor = nscolorToRGB(wireframe.canvasBackground);
   return svg;
@@ -104,22 +113,7 @@ export const Upstream =  {
    *   The rendered wireframe
    */
   getWireframeElement(wireframe, document) {
-    const SVG_NS = "http://www.w3.org/2000/svg";
-    let svg = document.createElementNS(SVG_NS, "svg");
-
-    // Currently guessing width & height from rects on the object, it would be better to
-    // save these on the wireframe object itself.
-    let width = wireframe.rects.reduce(
-      (max, rect) => Math.max(max, rect.x + rect.width),
-      0
-    );
-    let height = wireframe.rects.reduce(
-      (max, rect) => Math.max(max, rect.y + rect.height),
-      0
-    );
-
-    svg.setAttributeNS(null, "viewBox", `0 0 ${width} ${height}`);
-    svg.style.backgroundColor = this.nscolorToRGB(wireframe.canvasBackground);
+    let svg = getSVG(wireframe);
 
     const DEFAULT_FILL = "color-mix(in srgb, gray 20%, transparent)";
 
